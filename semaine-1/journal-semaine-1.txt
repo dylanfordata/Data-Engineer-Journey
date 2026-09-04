@@ -1,0 +1,75 @@
+📋 SEMAINE 1 — Terminal & Git — Récapitulatif complet
+
+═══════════════════════════════════
+TERMINAL — Navigation
+═══════════════════════════════════
+pwd                  → affiche le dossier où je suis actuellement
+ls                   → liste les fichiers/dossiers présents ici
+ls -R                → liste le contenu de TOUS les sous-dossiers (récursif)
+cd nom_dossier       → se déplacer dans un dossier
+cd ..                → remonter d'un niveau (au dossier parent)
+cd ~/nom_dossier     → aller directement à un dossier depuis mon dossier utilisateur
+cd /                 → aller à la racine du système (rarement utile)
+
+═══════════════════════════════════
+TERMINAL — Création & manipulation de fichiers
+═══════════════════════════════════
+mkdir nom_dossier         → crée un DOSSIER (un contenant)
+touch nom_fichier.txt     → crée un FICHIER vide (ex: touch notes.txt)
+cat nom_fichier.txt       → affiche le contenu d'un fichier
+mv ancien_nom nouveau_nom → renomme ou déplace un fichier
+rm nom_fichier.txt        → supprime un fichier (⚠️ définitif, pas de corbeille)
+rm -rf nom_dossier        → supprime un dossier ET tout son contenu (⚠️ définitif, à utiliser avec précaution)
+clear                     → nettoie l'écran du terminal
+
+═══════════════════════════════════
+TERMINAL — Raccourcis utiles
+═══════════════════════════════════
+Tab              → complète automatiquement un nom (évite les fautes de frappe)
+↑ (flèche haut)  → rappelle la dernière commande tapée
+Ctrl + C         → annule/interrompt une commande en cours ou bloquée
+
+═══════════════════════════════════
+GIT — Démarrer un suivi
+═══════════════════════════════════
+git init                     → transforme le dossier courant en repo Git
+git status                   → affiche l'état actuel (fichiers suivis/non suivis/prêts)
+
+═══════════════════════════════════
+GIT — Enregistrer des changements
+═══════════════════════════════════
+git add nom_fichier           → prépare un fichier précis pour le prochain commit
+git add nom_dossier/fichier   → prépare un fichier situé dans un sous-dossier
+git commit -m "message"       → enregistre les changements préparés, avec un message
+git log                       → affiche l'historique des commits
+
+═══════════════════════════════════
+GIT — Se connecter à GitHub
+═══════════════════════════════════
+git remote add origin URL     → connecte le dossier local à un repo GitHub
+git remote -v                 → vérifie que la connexion est bien configurée
+git push -u origin master     → envoie les commits vers GitHub (1ère fois)
+git push                      → envoie les commits vers GitHub (fois suivantes)
+
+═══════════════════════════════════
+🧠 LE CONCEPT CLÉ DE LA SEMAINE — Le cycle Git
+═══════════════════════════════════
+1. Je modifie/crée un fichier
+       ↓
+2. git add        → le fichier passe de "untracked" à "staged" (prêt)
+       ↓
+3. git commit -m "..."  → le fichier est enregistré dans l'historique local
+       ↓
+4. git push        → l'historique est envoyé sur GitHub (visible publiquement)
+
+Rien n'est automatique : chaque étape est une décision volontaire.
+
+═══════════════════════════════════
+✅ CE QUE J'AI RÉUSSI CETTE SEMAINE
+═══════════════════════════════════
+- Installation de Git Bash sur Windows
+- Navigation et manipulation de fichiers en terminal
+- Création d'un repo Git local
+- Premier commit
+- Création d'un repo GitHub
+- Premier push réussi — mon portfolio est officiellement en ligne 🎉
