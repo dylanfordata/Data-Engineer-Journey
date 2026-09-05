@@ -14,5 +14,6 @@ print(number_of_seats)
 print(aircraft_type)
 print(full_flight)
 
+#Utilisation du f-String
 print(f"The airline is {airline}")
 print(f"Flight {registration} costs {price} $ for {number_of_seats} seats ")
