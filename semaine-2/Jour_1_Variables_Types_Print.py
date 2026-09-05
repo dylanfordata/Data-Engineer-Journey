@@ -13,3 +13,6 @@ print(price)
 print(number_of_seats)
 print(aircraft_type)
 print(full_flight)
+
+print(f"The airline is {airline}")
+print(f"Flight {registration} costs {price} $ for {number_of_seats} seats ")
