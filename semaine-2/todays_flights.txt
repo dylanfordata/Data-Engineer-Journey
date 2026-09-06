@@ -1,0 +1,10 @@
+Volotea - Delay for 14 minutes
+Air France - Delay for 8 minutes
+Turkish Airlines - Delay for 29 minutes
+Air Dolomiti - Delay for 7 minutes
+Iberia - Delay for 11 minutes
+Brussels Airlines - Delay for 22 minutes
+United Airlines - Delay for 6 minutes
+China Eastern Airlines - Delay for 47 minutes
+Saudia- Delay for 9 minutes
+Air Algerie - Delay for 53 minutes
