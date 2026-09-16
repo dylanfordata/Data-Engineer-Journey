@@ -1,3 +1,5 @@
+#Cours sur les listes et dictionnaires en Python
+
 flights = [
     {"airline": "Easy Jet", "delay": 29, "complete": False},
     {"airline": "Ryannair", "delay": 17, "complete": False},
