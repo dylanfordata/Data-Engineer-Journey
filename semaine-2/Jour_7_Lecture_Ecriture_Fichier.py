@@ -1,3 +1,5 @@
+# Cours sur les lectures eet écritures d'un fichier.txt en Python
+
 with open("todays_flights.txt", "w") as flight:
     flight.write("Volotea - Delay for 14 minutes\n")
     flight.write("Air France - Delay for 8 minutes\n")
