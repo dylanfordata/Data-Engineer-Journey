@@ -43,8 +43,6 @@ FROM flights
 GROUP BY flight_number 
 HAVING COUNT(*) > 1;
 
-DELETE FROM flights;
-
 SELECT COUNT(*) FROM flights; 
 
 SELECT flight_number, flight_departure, delay, aeroports.name, aeroports.country 
