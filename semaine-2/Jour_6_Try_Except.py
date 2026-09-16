@@ -1,3 +1,5 @@
+# Cours sur Try et Except en Python
+
 delays = [37, 56, 22, "sensor error", 12, 41]
 
 for delay in delays :
